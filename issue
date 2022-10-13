@@ -1,0 +1,6 @@
+$ git remote add forked <forked-repo-url>
+
+$ git checkout master
+$ git pull forked master    # now your repo's master = forked repo's master
+
+$ git push origin master    # push/update remote master 
